@@ -1,0 +1,29 @@
+.ContentBlock {
+    /* Отступы */
+    margin: 5%;
+    padding: 5%;
+    /* Текст */
+    text-align: center;
+    color:ghostwhite;
+    /* Фон */
+    background: linear-gradient(rgb(62, 62, 65), rgb(48, 44, 45));
+    /* Тени */
+    box-shadow: 5px 5px 5px rgb(61, 60, 60);
+    text-shadow: rgb(2, 2, 2) 10px 10px 7px;
+    border-radius: 20px;
+}
+
+.ContentImage img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.ContentTitle{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ContentDescription{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
